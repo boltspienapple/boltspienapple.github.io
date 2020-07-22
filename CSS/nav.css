@@ -1,7 +1,9 @@
 
 .navbar {
     height: auto;
-    background: lightcyan;
+    background: #024959;
+    width: wrap;
+   
 }
 
 .navlist {

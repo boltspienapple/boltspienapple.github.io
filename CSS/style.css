@@ -9,7 +9,11 @@
     "header"
     "section"
     "footer";
+    background-color: #037F8C;
+    margin: 0px;
+    border: 0px;
 }
+
 
 * {
     box-sizing: border-box;
@@ -73,9 +77,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 30px 15px 60px;
-    margin: 35px 25px;
-    width: 100%;
+    margin: opx;
+  
 }
 
 .card {
@@ -93,6 +96,7 @@
     text-decoration: none;
     align-content: center;
     margin: 5px;
+    box-shadow: 5px 5px 5px ;
 }
 
 .column {
@@ -102,6 +106,9 @@
 .card-image img {
     width: 275px;
     height: 215px;
+    border-radius: 10px ;
+    box-shadow: 10px 10px 10px;
+    
 }
 
 .btn-viewmore {
